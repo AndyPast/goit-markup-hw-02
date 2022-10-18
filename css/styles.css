@@ -14,43 +14,123 @@ body {
   color: var(--primary-text-color);
 }
 
-.logo,
-.logo-footer {
+.logo {
+  color: var(--secondary-logo-color);
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--secondary-logo-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.foot {
+  background-color: var(--secondary-background-color);
+  color: var(--secondary-text-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 
   text-decoration: none;
   font-style: normal;
 }
 
+.logo-header {
+  color: var(--secondary-color);
+}
+
+.logo-footer {
+  color: var(--secondary-text-color);
+}
+
+.section {
+  background-color: var(--secondary-background-color);
+}
+
+.section-images {
+  background-color: var(--primary-buttons-color);
+}
+
 .text {
+  color: var(--secondary-text-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+
+.text-image {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
 }
 
 .text-description {
+  color: var(--contacts-color);
   font-size: 16px;
   line-height: 1.87;
-  color: var(--contacts-color);
 }
 
-.button {
+.text-script {
+  color: var(--contacts-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.text-list {
+  color: var(--secondary-logo-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.text-main {
+  color: var(--secondary-logo-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+.text-name {
+  color: var(--secondary-logo-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.text-job {
+  color: var(--contacts-color);
+  font-size: 16px;
+  line-height: 1.9;
+}
+
+.buttons {
   background-color: var(--primary-buttons-color);
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.62;
+  line-height: 1.6;
   font-style: Medium;
   cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.buttons:hover,
+.buttons:focus {
   background-color: var(--secondary-color);
+  color: var(--secondary-text-color);
+}
+
+.button-one {
+  background-color: var(--secondary-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.6;
+  font-style: Medium;
+  cursor: pointer;
+}
+
+.button-one,
+.button-one {
   color: var(--secondary-text-color);
 }
 
@@ -70,6 +150,14 @@ body {
 .list-link:hover,
 .list-link:focus {
   color: var(--secondary-color);
+}
+
+.list-item {
+  list-style-type: none;
+}
+
+.list-footer {
+  font-weight: 400;
 }
 
 .linc-cont {

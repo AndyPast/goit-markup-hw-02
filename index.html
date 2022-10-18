@@ -6,74 +6,79 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home work 1</title>
     <link rel="stylesheet" href="./css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <a href="" class="test-link">Тест линк</a>
 
   <body>
     <!-- Шапка сайта -->
     <header>
-      <!-- Название на черном фоне -->
       <nav>
-        <a href="WebStudio">WebStudio</a>
+        <a href="WebStudio" class="logo"
+          ><span class="logo-header">Web</span>Studio</a
+        >
 
-        <ul>
+        <ul class="list">
           <li>
-            <a href="Студия">Студия</a>
+            <a href="Cтудия" class="list-link">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a href="./portfolio.html" class="list-link">Портфолио</a>
           </li>
           <li>
-            <a href="Контакты">Контакты</a>
+            <a href="Контакты" class="list-link">Контакты</a>
           </li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="list">
         <li>
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <a href="mailto:info@devstudio.com" class="list-link linc-cont"
+            >info@devstudio.com</a
+          >
         </li>
         <li>
-          <a href="tel:0961111111">0961111111</a>
+          <a href="tel:0961111111" class="list-link linc-cont">0961111111</a>
         </li>
       </ul>
     </header>
-
     <main>
-      <div>
-        <h1>Эффективные решения для вашего бизнеса</h1>
+      <section class="section">
+        <h1 class="text">Эффективные решения для вашего бизнеса</h1>
 
-        <button type="button">Заказать услугу</button>
-      </div>
+        <button type="button" class="button-one">Заказать услугу</button>
+      </section>
 
       <!-- Описание приимуществ -->
       <section>
-        <h2>Описание преимуществ</h2>
-        <ul>
+        <!-- <h2 class="text-main">Описание преимуществ</h2> -->
+        <ul class="list-item">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="text-list">Внимание к деталям</h3>
+            <p class="text-script">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="text-list">Пунктуальность</h3>
+            <p class="text-script">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="text-list">Планирование</h3>
+            <p class="text-script">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="text-list">Современные технологии</h3>
+            <p class="text-script">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -82,8 +87,8 @@
       </section>
 
       <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+        <h2 class="text-main">Чем мы занимаемся</h2>
+        <ul class="list-item">
           <li>
             <img
               src="./images/photo1.jpeg"
@@ -111,19 +116,19 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Наша команда</h2>
+      <section class="section-images">
+        <h2 class="text-main">Наша команда</h2>
 
-        <ul>
+        <ul class="list-item">
           <li>
             <img src="./images/igor.jpeg" alt="Игорь дизайнер" width="270" />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="text-name">Игорь Демьяненко</h3>
+            <p class="text-job">Product Designer</p>
           </li>
           <li>
             <img src="./images/olga.jpeg" alt="Ольга разработчик" width="270" />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="text-name">Ольга Репина</h3>
+            <p class="text-job">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -131,30 +136,43 @@
               alt="Николай маркетолог"
               width="270"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="text-name">Николай Тарасов</h3>
+            <p class="text-job">Marketing</p>
           </li>
           <li>
             <img src="./images/mihail.jpeg" alt="Михаил дизайнер" width="270" />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="text-name">Михаил Ермаков</h3>
+            <p class="text-job">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="WebStudio">WebStudio</a>
+    <footer class="foot">
+      <a href="WebStudio" class="logo"
+        ><span class="logo-header">Web</span
+        ><span class="logo-footer">Studio</span></a
+      >
       <address>
-        <ul>
+        <ul class="list">
           <li>
-            <a href="г.Киев,пр-тЛесиУкраинки,26">г.Киев,пр-тЛесиУкраинки,26</a>
+            <a
+              href="https://goo.gl/maps/P4V3GdsKR6i7VE34A"
+              class="list-link list-footer"
+              >г.Киев,пр-тЛесиУкраинки,26</a
+            >
           </li>
           <li>
-            <a href="mailto:info@example.com">info@example.com</a>
+            <a
+              href="mailto:info@example.com"
+              class="list-link linc-cont list-footer"
+              >info@example.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380991111111">+380991111111</a>
+            <a href="tel:+380991111111" class="list-link linc-cont list-footer"
+              >+380991111111</a
+            >
           </li>
         </ul>
       </address>
