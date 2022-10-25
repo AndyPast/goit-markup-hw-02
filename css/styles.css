@@ -55,6 +55,11 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-transform: uppercase;
+}
+
+.text-adv {
+  text-transform: uppercase;
 }
 
 .text-image {
@@ -108,7 +113,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
-  font-style: Medium;
+  font-style: Normal;
   cursor: pointer;
 }
 
@@ -137,27 +142,17 @@ body {
   list-style: none;
 }
 
+.site-nav .link-current {
+  color: var(--secondary-color);
+}
+
 .list-link {
   color: var(--primary-color);
   font-weight: 500;
   font-size: 14px;
-  line-height: 3.2;
+  line-height: 1.14;
   text-decoration: none;
   font-style: normal;
-}
-
-.link-cont {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 3.2;
-  text-decoration: none;
-  font-style: normal;
-  color: var(--contacts-color);
-}
-
-.link-cont:hover,
-.link-cont:focus {
-  color: var(--secondary-color);
 }
 
 .list-link:hover,
@@ -173,6 +168,45 @@ body {
   font-weight: 400;
 }
 
+.link-cont {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+  color: var(--contacts-color);
+}
+
+.link-cont:hover,
+.link-cont:focus {
+  color: var(--secondary-color);
+}
+
 .link-adress {
   color: var(--background-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+}
+
+.link-adress:hover,
+.link-adress:focus {
+  color: var(--secondary-color);
+}
+
+.foot-cont {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  text-decoration: none;
+  font-style: normal;
+  color: var(--background-color);
+  opacity: 60%;
+}
+
+.foot-cont:hover,
+.foot-cont:focus {
+  color: var(--secondary-color);
 }
